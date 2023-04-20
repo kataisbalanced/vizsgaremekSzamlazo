@@ -1,0 +1,19 @@
+.my-container {
+  max-width: 1200px;
+  border: 1px dashed black;
+}
+
+.my-width-100 {
+  width: 100px;
+}
+body{
+  background-image: url("../../images/bg.jpg");
+  color: white;
+}
+th,td{
+  color: white;
+}
+img{
+  width: 1400;
+  height: 300px;
+}
