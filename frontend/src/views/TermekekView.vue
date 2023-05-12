@@ -8,6 +8,7 @@
       <th>Id</th>
       <th>Name</th>
       <th>Price ($)</th>
+      <th>Add Products</th>
     </tr>
   </thead>
   <tbody v-for="(product, index) in products"
@@ -16,6 +17,7 @@
       <td>{{product.id}}</td>
       <td>{{product.productName}}</td>
       <td>{{product.price}}</td>
+      <td><button>Add Product</button></td>
     </tr>
   </tbody>
 </table>

@@ -1,7 +1,7 @@
 
 <template>
   <div>
-    <h1>Vásárlók</h1>
+    <h1>Customers</h1>
     <table class="table">
   <thead>
     <tr>
@@ -9,6 +9,7 @@
       <th>Postal Code</th>
       <th>Settlement</th>
       <th>Street Address</th>
+      <th>Add Customers</th>
     </tr>
   </thead>
   <tbody v-for="(buyer, index) in buyers"
@@ -18,6 +19,7 @@
       <td>{{buyer.postalCode}}</td>
       <td>{{buyer.settlement}}</td>
       <td>{{buyer.streetAddress}}</td>
+      <td><button>Add Customer</button></td>
     </tr>
   </tbody>
 </table>
