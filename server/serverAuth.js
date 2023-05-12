@@ -141,7 +141,7 @@ function generateAccessToken(user) {
   }
 }
 
-//refreshTiken generátor
+//refreshToken generátor
 function generateRefreshToken(user) {
   return jwt.sign(user, process.env.REFRESH_TOKEN_SECRET);
 }
